@@ -34,4 +34,4 @@
   unused-packages = true
 
 [metadata.heroku]
-  root-package = "ebzuerich-simple-api/src"
+  root-package = "ebzuerich-simple-api"

@@ -15,5 +15,11 @@ func main() {
 			"time": time.Now(),
 		})
 	})
+	r.GET("/errorping", func(c *gin.Context) {
+		c.JSON(404, gin.H{
+			"message": "pinginginging errrroooor",
+			"time": time.Now(),
+		})
+	})
 	r.Run()
 }

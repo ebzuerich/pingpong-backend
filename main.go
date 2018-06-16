@@ -1,4 +1,4 @@
-package ebzuerich_simple_api
+package main
 
 import "github.com/gin-gonic/gin"
 
